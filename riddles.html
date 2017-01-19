@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Личный сайт студента GeekBrains</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="riddles.js"></script>
+</head>
+<body>
+	<div id="header">
+		<a href="index.html">Главная</a>
+		<span>/</span>
+
+		<a href="riddles.html">Загадки</a>
+		<span>/</span>
+
+		<a href="guessing.html">Угадайка</a>
+		<span>/</span>
+
+		<a href="two_player_guessing.html">Угадайка мультиплеер</a>
+	</div>
+
+	<div id="content">
+		<h1>Личный сайт студента GeekBrains</h1>
+
+		<div id="center">
+			<h3>Угадайка</h3>
+			<div id="box">
+				<p>Нужно угадать три загадки</p>
+				<p>1. A and B sat on a tube, A fell down, B disappeared. What remains on the tube?
+				<input type="text" id="userAnswer1"></p>
+
+				<p>2.Who makes it, has no need for it. Who buys it, has no use for it. Who uses it can neither see nor feel it. What is it?
+				<input type="text" id="userAnswer2"></p>
+
+				<p>3.If a chicken stands on both legs its weight equals 4 kilograms. How many kilograms does the chicken weigh if it stands on one leg?<br>
+				<input type="text" id="userAnswer3"></p>
+				<a href="#" onclick="playRiddles()">Ответить</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		Copyright &copy 2017 <a href="https://geekbrains.ru/" target="_blank">GeekBrains</a>
+	</div>
+</body>
+</html>
